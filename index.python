@@ -1,10 +1,14 @@
-class stack:(p1)
-def___int___(self,limit):
-   self.st=[]
-self.lim=limit
-defpush(self.x):
-if len (self st)>=self.lim-1
-print("stack is full")
-return-1
-self st:(append(x))
+def del(self):
+if self.front==-1
+print('queue is empty')
+return
 
+if self.front==self.rear:
+    k=self.list[self.front]
+    self.front=-1
+    self.rear=-1
+    return k 
+k=self.list[self.front]
+self.front+=1
+return k
+mohamad aminghazanfri
