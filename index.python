@@ -1,10 +1,13 @@
-متد show-valid را طوری تغیر دهید که فقط یک حلقه داشته باشد
-def shoe-valid(self)
-i=self.front
-
- print(self.list[1])
- while(!=self.rear)
- i=(i+1)%len(self.list)
-
-print(self.list[1]
-      mohamad aminghazanfri
+class links list
+    def__int(self):
+    self.head=nane
+    def insert(self,x):
+        if self.head is nane:
+            a=node(x)
+            self.head=a
+            a=node(x)
+            c=self.head
+            while cnext
+            c=c.next
+            c.next=a
+            mohamad amin ghzanfri
