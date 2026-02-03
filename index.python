@@ -1,14 +1,15 @@
-def insert__befor(self,x,y)
-    if sel(head i none:
-         print('print is empty')
-         return
-         if self.head data==x:
-         return
-         c=self.head
-         while c.next:
-         a=node(y)
-         a.next=a 
-         return
-         c=c.next
-         print('not found')
-         mohamad amin ghazanfri
+BFSالگوریتم 
+def bfs(start,graph)
+    queue=[start]
+    visited={start}
+    while queue:
+        vertex=queue pop(0)
+
+        frone in graph[vertex]
+        if ne not invisited:
+
+       visited.add(ne)
+    queue.append(ne)
+
+    return visited
+    mohamad amin ghazanfri
