@@ -1,108 +1,46 @@
-#node گره
-class node :
-    def __init__(self , d):
-        self.Data = d
-        self.next = None
+def __init__(self , x):
+        self.Data = x
+     class dnode():
+   self.next = None
+        self.back = None
 
 
-
-
-class linked_list :
+class dlinked_list :
     def __init__(self):
         self.head = None
-    def insert_frist(self , x):
-        if self.head == None:
-            self.head = node(x)
-        else:
-            a = node(x)
-            a.next = self.head
-            self.head = a     
-    def insert_last(self , x):
+    def del_after(self , x):
         if self.head is None:
-            self.head = node(x)
-        else:
-            a = node(x)
-            c = self.head
-            while c.next:
-                c = c.next 
-            c.next = a
-    def insert_after(self , x, y):
-        if self.head is None:
-            print("list is empty")
-        else:
-            c = self.head
-            while c:
-                if c.Data == x:
-                    a = node(y)
-                    a.next = c.next
-                    c.next = a
-                c = c.next
-            print("not found")
-#رفع ایراد
-#    def insert_after(self , x, y):
-#        if self.head is None:
-#            print("list is empty")
-#        else:
-#            f = True
-#            c = self.head
-#            while c:
-#                if c.Data == x:
-#                    a = node(y)
-#                    a.next = c.next
-#                    c.next = a
-#                    f = False
-#                c = c.next
-#            if flag:
-#                print("not found")
-    def insert_after(self , x, y):
-        if self.head is None:
-            print("list is empty")
-        else:
-            c = self.head
-            while c:
-                if c.Data == x:
-                    a = node(y)
-                    a.next = c.next
-                    c.next = a
-                    return
-                c = c.next
-            print("not found")    
-
-    def insert_after(self , x, y):
-        if self.head is None:
-            print("list is empty")
-            return
-        if self.head.Data == x:
-            self.insert_frist(y)
+            print("error")
             return
         c = self.head
-        while c.next:
-                if c.next.Data == x:
-                    a = node(y)
-                    a.next = c.next
-                    c.next = a
+        while c:
+            if c.Data == x:
+                if c.next :
+                    a = c.next
+                    c.next = a.next
+                    if a.next:
+                        a.next.back = c
+                    del a
                     return
-                c = c.next
-                print("not found")                      
-
-    def insert_befor(self , x, y):
-        if self.head is None:
-            print("list is empty")
-            return
-        if self.head.Data == x:
-            self.insert_frist(y)
-            return
-        while c.next:
-            if c.next.Data == x:
-                a = node(y)
-                a.next = c.next
-                c.next = a
+                print("error 1")
                 return
             c = c.next
-        print("not found")
-                                                                                                                                              
-
-
-
-
-
+            print("not found")
+    def del_x(self , x):
+        if self.head is None:
+            print("error")
+            return
+        c = self.head
+        while c:
+            if c.Data == x:
+                if c.next is None:
+                    self.del_last()
+                    return
+                c.back.next = c.next
+                c.next.back = c.back
+                del c
+                return
+            c = c.next
+            print("not found")
+            محمد امین غضنفری 
+            
