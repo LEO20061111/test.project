@@ -1,14 +1,12 @@
-def del(self):
-if self.front==-1
-print('queue is empty')
-return
+def show-valid (self)
+is self rear>=self.front 
+for i in range (self.front.self.rear)
+print(self.list[0])
 
-if self.front==self.rear:
-    k=self.list[self.front]
-    self.front=-1
-    self.rear=-1
-    return k 
-k=self.list[self.front]
-self.front+=1
-return k
-mohamad aminghazanfri
+else
+
+for i in range (self.fronteen,self.list)
+        print(self.list[])
+        for i in range (self.rear+1)
+        print(self.list[0])
+        mohamad amin ghazanfri
