@@ -1,15 +1,19 @@
-BFSالگوریتم 
-def bfs(start,graph)
-    queue=[start]
-    visited={start}
-    while queue:
-        vertex=queue pop(0)
+def del-first(self)
+if self.head is none:
+    print('list is empty')
 
-        frone in graph[vertex]
-        if ne not invisited:
+    return
+هد از کپی 1 c=self.head
+جلو به هد حرکت 2=self.head=c.next
+اول گره ازادکردن 3=delc
 
-       visited.add(ne)
-    queue.append(ne)
+def del-last(self):
+if self.head is none 
+print(' list is empty')
+return
+ 
+ if self.head. next is none :
+   self del-firsr()
+   return
 
-    return visited
-    mohamad amin ghazanfri
+mohamad amin ghazanfri
