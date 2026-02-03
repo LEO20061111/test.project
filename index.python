@@ -1,12 +1,10 @@
-def show-valid (self)
-is self rear>=self.front 
-for i in range (self.front.self.rear)
-print(self.list[0])
+متد show-valid را طوری تغیر دهید که فقط یک حلقه داشته باشد
+def shoe-valid(self)
+i=self.front
 
-else
+ print(self.list[1])
+ while(!=self.rear)
+ i=(i+1)%len(self.list)
 
-for i in range (self.fronteen,self.list)
-        print(self.list[])
-        for i in range (self.rear+1)
-        print(self.list[0])
-        mohamad amin ghazanfri
+print(self.list[1]
+      mohamad aminghazanfri
