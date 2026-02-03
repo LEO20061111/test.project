@@ -1,13 +1,14 @@
-class links list
-    def__int(self):
-    self.head=nane
-    def insert(self,x):
-        if self.head is nane:
-            a=node(x)
-            self.head=a
-            a=node(x)
-            c=self.head
-            while cnext
-            c=c.next
-            c.next=a
-            mohamad amin ghzanfri
+def insert__befor(self,x,y)
+    if sel(head i none:
+         print('print is empty')
+         return
+         if self.head data==x:
+         return
+         c=self.head
+         while c.next:
+         a=node(y)
+         a.next=a 
+         return
+         c=c.next
+         print('not found')
+         mohamad amin ghazanfri
